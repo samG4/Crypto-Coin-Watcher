@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <TableRow
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCoinName"
+            tools:text="BTC"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvInr"
+            tools:text="3000000"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center"
+            android:maxLines="1"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUsd"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:text="654531"
+            android:maxLines="1"
+            android:layout_weight="1"
+            />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/view"
+        android:layout_marginBottom="1dp"/>
+</LinearLayout>
